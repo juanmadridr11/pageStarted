@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    
+}
+body{
+    background:-webkit-linear-gradient(left,#282b30,#36393e);
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3rem;
+}
+.body{
+
+    width: 50%;
+    color: white;
+    background: rgba(0, 0, 0, 0.37);
+    background-image: url(fondo.jpg);
+    background-blend-mode: soft-light;
+    background-size: 60rem;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.37);
+    border-radius: 1rem;
+    
+}
+header{
+    padding: 1rem;
+    background:-webkit-linear-gradient(left,rgba(0, 0, 0, 0.335),rgba(0, 0, 0, 0.068));
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+main{
+
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+ol{
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-content: left;
+    line-height: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: 0.5s;
+}
+i{
+    font-size: 0.7rem;
+    transition: 0.5s;
+}
+main .section{
+    background: rgba(0, 0, 0, 0.335);
+    padding: 1rem;
+    border-radius: 1rem;
+    flex-basis: 11rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.445);
+}
+footer{
+    background: -webkit-linear-gradient(left,#282b30b4,#36393e3d);
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+
+    
+}
+footer a i{
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+    
+}
+main a:hover{
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+header i:hover{
+    font-size: 4rem !important;
+    transition: 0.5s;
+}
+footer a i:hover{
+    margin-right: 0.5rem;
+    font-size: 1.7rem;
+}
+@media screen and (max-width:800px){
+
+
+    .body{
+        width: 100%;
+        background-size: 250vh;
+    }
+    body{
+        margin-top: 8rem;
+    }
+    main h2{
+        font-size: 0.9rem !important;
+    }
+    main .section{
+      
+        flex-basis: 8.5rem;
+    }
+    main{
+        justify-content: space-between;
+    }
+    
+    
+}
+@media screen and (max-width:370px){
+    main{
+        justify-content: center;
+    }
+    #section-1{
+        margin-bottom: 1rem;
+    }
+
+}
+
