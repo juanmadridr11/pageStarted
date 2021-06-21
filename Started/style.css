@@ -102,7 +102,7 @@ footer a i:hover{
 
     .body{
         width: 100%;
-        background-size: 250vh;
+        background-size: auto;
     }
     body{
         margin-top: 5rem;
